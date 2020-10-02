@@ -30,6 +30,7 @@ public:
 
 
 	void make_move(int a, int b, GameField& game);
+
 	char get_symbol();
 	void set_symbol(char symbol);
 };
@@ -47,9 +48,14 @@ private:
 
 	bool check_sqare(int a, int b);
 
+	int horizontal_check(Player& player);
+	int vertical_check(Player& player);
+	int diag_check(Player& player);
+
 public:
 	void fill_sqare(int a, int b, Player* player);
-	//void check_winner();
+
+	bool find_winner(Player& player1);
 
 	friend void ConsoleUI::DisplayField(GameField& field);
 	friend void Player::make_move(int a, int b, GameField& game);

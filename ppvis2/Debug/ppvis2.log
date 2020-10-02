@@ -1,4 +1,9 @@
 ﻿  game.cpp
-c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(40): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(43): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(8): warning C4101: choose: неиспользованная локальная переменная
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(66): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(69): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(116): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(118): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(138): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(140): warning C4018: <: несоответствие типов со знаком и без знака
   ppvis2.vcxproj -> C:\Users\USER\source\repos\ppvis2\Debug\ppvis2.exe
