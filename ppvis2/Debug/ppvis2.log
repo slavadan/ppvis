@@ -1,0 +1,4 @@
+﻿  game.cpp
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(40): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\ppvis2\ppvis2\game.cpp(43): warning C4018: <: несоответствие типов со знаком и без знака
+  ppvis2.vcxproj -> C:\Users\USER\source\repos\ppvis2\Debug\ppvis2.exe
