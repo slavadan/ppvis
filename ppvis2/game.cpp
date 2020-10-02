@@ -58,7 +58,10 @@ std::string Player::get_palyername()
 
 void Player::make_move(int a, int b, GameField & game)
 {
-	game.fill_sqare(a, b, this);	
+	if (game.check_sqare(a, b))
+		game.fill_sqare(a, b, this);
+	else
+		return;
 }
 
 char Player::get_symbol()
@@ -73,7 +76,10 @@ void Player::set_symbol(char symbol)
 
 bool GameField::check_sqare(int a, int b)
 {
-	return true;
+	if (game_field[a][b] == ' ')
+		return true;
+	else
+		return false;
 }
 
 void GameField::fill_sqare(int a, int b, Player* player)
